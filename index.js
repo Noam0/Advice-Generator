@@ -13,6 +13,7 @@ app.get("/", async (req, res) => {
     console.log(result.data.slip.advice);
     res.render('index', {
         advice: result.data.slip.advice,
+        id: result.data.slip.id,
     });
 } catch (error) {
     if (error.response) {

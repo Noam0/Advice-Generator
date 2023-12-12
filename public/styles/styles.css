@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: 'Concert One', sans-serif;
+    background-color: #1f2531;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Make the body take the full viewport height */
+}
+
+.card {
+    background-color: #313a49;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#adviceId{
+    color:#55feaa;
+}
+
+
+
+#adviceText{
+    text-align: center;
+    color:#c9d9e3;
+    font-size: 28px;
+    margin-bottom: 15%;
+}
+#end-quote{
+    color:#c9d9e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+
+#middle-end-quete {
+    position: relative;
+    bottom: 13px;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+#circle {
+    background-color: #55feaa;
+    border-radius: 50%; /* Use 50% for a perfect circle */
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px
+}
+#generateAdviceBtn{
+    width: 90px;
+}
